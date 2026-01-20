@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+header {
+    background-color: black;
+    color: white;
+}
+
+main {
+    font-size: 32px;
+    padding: 50px;
+}
+
+main > p {
+    padding: 50px;
+}
+
+p#joaninha {
+    color: white;
+    background-image: url(imagens/background001.jpg);
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+p#papel {
+    background-image: url(imagens/background002.jpg);
+}
+
+footer {
+    background-color:  black;
+    color:  white;
+}
+
