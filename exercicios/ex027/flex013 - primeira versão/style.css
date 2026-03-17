@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1000px) and (min-width: 10px){
+    body {
+        background-color: aqua;
+    }
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #D9D7CC;
+}
+
+header {
+    height: 70px;
+    display: flex;
+    background-color: #3F403B;
+}
+
+header > h1 {
+    color: white;
+    flex: auto;
+    text-shadow: 1px 1px 1px black;
+    padding: 10px;
+    align-self: center;
+}
+
+div.menu {
+    color: white;
+    background-color: #010D00;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    flex-basis: auto;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    align-self: center;
+}
+
+div.menu:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    padding: 10px;
+}
+
+main > h1 {
+    flex: auto;
+}
+
+main > p {
+    flex: auto;
+}
