@@ -27,7 +27,7 @@ div#media {
 }
 
 img {
-
+    flex-basis: 400px;
 }
 
 div#text {
@@ -35,7 +35,7 @@ div#text {
 }
 
 iframe {
-    
+    flex-basis: 400px;
 }
 
 footer {
