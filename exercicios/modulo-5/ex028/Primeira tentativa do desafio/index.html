@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0px;
+        }
+
+        div {
+            display: grid;
+            width: 100vw;
+            height: 100vh;
+            grid-template-rows: 80px 40px 1fr 40px;
+            grid-template-columns: 1fr 150px;
+            gap: 5px;
+        }
+
+        .caixa{
+            background-color: burlywood;
+            padding: 10px;
+        }
+
+        header {
+            grid-area: 1 / 1 / 2 / -1;
+        }
+
+        nav {
+            grid-area: 2 / 1 / 3 / -1;
+        }
+
+        main {
+            grid-area: 3 / 1 / -2 / 2;
+        }
+
+        aside {
+            grid-area: 3 / -2 / -2 / -1;
+        }
+
+        footer {
+            grid-area: -2 / 1 / -1 / -1;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <header class="caixa">
+            TOPO
+        </header>
+        <nav class="caixa">
+            MENU
+        </nav class="caixa">
+        <main class="caixa">
+            PRINCIPAL
+        </main>
+        <aside class="caixa">
+            SECUNDÁRIO
+        </aside>
+        <footer class="caixa">
+            RODAPÉ
+        </footer>
+    </div>
+</body>
+</html>
